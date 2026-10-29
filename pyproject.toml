@@ -1,0 +1,9 @@
+[project]
+name = "fraud-detection-mlops"
+version = "1.0.0"
+description = "Leakage-safe fraud detection and MLOps reference project"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+

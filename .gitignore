@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+models/*.json
+reports/*.json
+data/generated/
+tests/.tmp/
+
