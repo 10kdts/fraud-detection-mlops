@@ -11,5 +11,6 @@
 - [x] Implementar PSI e níveis de alerta
 - [x] Documentar rollback e retreino
 - [x] Automatizar testes e evidências na CI
-- [ ] Publicar e fixar no GitHub
+- [x] Publicar no GitHub
+- [ ] Fixar no perfil
 

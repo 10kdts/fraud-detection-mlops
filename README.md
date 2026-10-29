@@ -1,5 +1,9 @@
 # Fraud Detection MLOps
 
+[![CI](https://github.com/10kdts/fraud-detection-mlops/actions/workflows/ci.yml/badge.svg)](https://github.com/10kdts/fraud-detection-mlops/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Projeto de portfólio para vagas de Analista, Cientista, Engenheiro e Especialista de Dados. Implementa detecção de fraude reproduzível, explicável e operável, com foco em decisões de negócio — não apenas em acurácia.
 
 ## Problema
@@ -61,6 +65,10 @@ curl -X POST http://127.0.0.1:8080/score \
 - Nenhuma variável criada depois da decisão de fraude entra no treinamento.
 - Dados são sintéticos; resultados não representam uma instituição financeira real.
 
+## Resultado de referência
+
+Na execução determinística com 6.000 transações, o período de teste obteve Average Precision de **0,144**, recall de **60%** e limiar de decisão de **0,64**. A precisão de 2,94% reflete deliberadamente a raridade da classe e o custo 20 vezes maior atribuído a fraudes não detectadas; por isso, o modelo encaminha casos para revisão em vez de bloquear automaticamente.
+
 ## Roadmap
 
 | Fase | Entrega | Status |
@@ -72,7 +80,7 @@ curl -X POST http://127.0.0.1:8080/score \
 | 5 | API e empacotamento | Concluída |
 | 6 | Drift, observabilidade e rollback | Concluída |
 | 7 | Testes e CI/CD | Concluída |
-| 8 | Publicação no GitHub | Pendente |
+| 8 | Publicação no GitHub | Publicado; destaque pendente |
 
 Consulte a [arquitetura](docs/architecture.md), o [model card](docs/model_card.md), o [runbook](docs/runbook.md) e o [relatório de validação](docs/validation_report.md).
 
