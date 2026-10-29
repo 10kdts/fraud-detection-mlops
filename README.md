@@ -80,7 +80,7 @@ Na execução determinística com 6.000 transações, o período de teste obteve
 | 5 | API e empacotamento | Concluída |
 | 6 | Drift, observabilidade e rollback | Concluída |
 | 7 | Testes e CI/CD | Concluída |
-| 8 | Publicação no GitHub | Publicado; destaque pendente |
+| 8 | Publicação no GitHub | Concluída |
 
 Consulte a [arquitetura](docs/architecture.md), o [model card](docs/model_card.md), o [runbook](docs/runbook.md) e o [relatório de validação](docs/validation_report.md).
 

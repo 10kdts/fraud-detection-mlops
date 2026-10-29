@@ -12,5 +12,5 @@
 - [x] Documentar rollback e retreino
 - [x] Automatizar testes e evidências na CI
 - [x] Publicar no GitHub
-- [ ] Fixar no perfil
+- [x] Fixar no perfil
 
