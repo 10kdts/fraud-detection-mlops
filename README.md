@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Projeto de portfólio para vagas de Analista, Cientista, Engenheiro e Especialista de Dados. Implementa detecção de fraude reproduzível, explicável e operável, com foco em decisões de negócio — não apenas em acurácia.
+Neste projeto eu tratei detecção de fraude como uma decisão de negócio, não como uma disputa por acurácia. O modelo precisa encontrar fraude, mas também precisa explicar o custo de revisar uma compra legítima, funcionar sem informação do futuro e deixar um caminho seguro para rollback.
 
 ## Problema
 
@@ -24,7 +24,7 @@ Transações -> validação -> features point-in-time -> treino temporal
                          logs, PSI, alertas e retreino
 ```
 
-## Competências demonstradas
+## O que eu coloquei em prática
 
 - Modelagem de classificação desbalanceada
 - Prevenção de data leakage e look-ahead bias
